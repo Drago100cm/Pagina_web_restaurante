@@ -1,0 +1,54 @@
+:root{
+    --furnte_principal: "Montserrat",sans-serif;
+
+    --textonegrita:900;
+    --textonormal:400;
+    --textotin:100;
+
+    --colorPrincipal:#49495a;
+    --ColorTitulos:#403ccf;
+
+    --backgroundPrincipal:#fbfaff;
+    --bgSecundario:#eae8f3;
+    --bgBannerPrincipal:#ede0ea;
+    --bgBannereSecundario:#2623b1;
+}
+body {
+    padding: 30px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: var(--colorPrincipal);
+}
+/*estos son para la primera diapositiva*/
+.header{
+    display: flex;
+    max-width: 200px;
+    background-color: #fff;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    overflow: hidden;
+    border-radius: 10px;
+}
+.contenedor{
+    flex: 1;
+    padding: 40px;
+
+}
+.cuerpo__imagen{
+    float: left;
+    margin: 0 15px 15px 0;
+    width: 300px;
+}
+.cuerpo__titulo{
+    padding: 60px;
+    font-size: 2em;
+    color: #3c4ee4;
+    margin: 0;
+}
+.cuerpo__parrafo{
+    padding: 0px;
+    font-size: 1em;
+    color: #333;
+    line-height: 1.6;
+    margin-top: 20px;
+}
